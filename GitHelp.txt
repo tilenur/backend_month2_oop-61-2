@@ -1,0 +1,18 @@
+Команды для регистрации ваших
+write 1 time for the computer
+git config --global user.name "tilenur"
+git config --global user.email "tilenur@gmail.com"
+========================================================================
+write 1 time for the project
+git init
+git remote add origin https://github.com/tilenur/backend_month2_oop-61-2.git
+========================================================================
+git status
+
+need to create file .gitignore
+
+git add .
+git commit -m "same text"
+git push origin main
+
+a
