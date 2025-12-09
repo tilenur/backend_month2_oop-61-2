@@ -22,7 +22,5 @@ git rm -r ._____
 git commit -m "same text"
 git push origin main
 
-git switch main
-git merge lesson2
 
 
