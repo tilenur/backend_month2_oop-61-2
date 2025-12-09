@@ -70,6 +70,24 @@ class BankAccount:
             self.hero.name == other.hero.name
             and self.hero.lvl == other.hero.lvl
         )
+# 5
+class SmsService(ABC):
+    @abstractmethod
+    def send_otp(self, phone: str):
+        pass
+
+
+class KGSms(SmsService):
+    def send_otp(self, phone: str) -> str:
+        return f"<text>Код: 1234</text><phone>{phone}</phone>"
+
+
+class RUSms(SmsService):
+    def send_otp(self, phone: str) -> dict:
+        return {
+            "text": "Код: 1234",
+            "phone": phone,
+        }
 
 if __name__ == "__main__":
     mage1 = MageHero("Merlin", 80, 500, 150)
@@ -86,4 +104,14 @@ if __name__ == "__main__":
     print(acc1)
     print(acc2)
 
+    print("Банк:", acc1.get_bank_name())
+    print("Бонус за уровень:", acc1.bonus_for_level(), "SOM")
 
+    print("\nСумма счетов двух магов:", acc1 + acc2)
+    print("Сумма мага и воина:", acc1 + acc3)
+
+    print("\nMage1 == Mage2 ?", acc1 == acc2)
+    print("Mage1 == Warrior ?", acc1 == acc3)
+
+    sms = KGSms()
+    print("\n", sms.send_otp("+996777123456"))
