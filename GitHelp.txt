@@ -17,9 +17,12 @@ git add \file name or directory
 git add lessons/lesson2Teacher.py (tab - auto add)
 git add lessons/ (all folder)
 
-git rm -r ._____
+git rm -r .name or directory
 
 git commit -m "same text"
 git push origin main
 
+git branch - see branch
+git branch (name of the branch)
+git push origin (name of the branch)
 
