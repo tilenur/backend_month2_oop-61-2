@@ -24,5 +24,6 @@ git push origin main
 
 git branch - see branch
 git branch (name of the branch)
+git commit -m "same text"
 git push origin (name of the branch)
 
