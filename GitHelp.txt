@@ -22,25 +22,10 @@ git rm -r .name or directory
 git commit -m "same text"
 git push origin main
 
-========================================================================
-git status
-
 git branch - see branch
 git branch (name of the branch)
 
 git commit -m "same text"
 git push origin (name of the branch)
-
-When merging
-git switch main (or branch)
-git commit
-- press ESC,
-- type :wq,
-- press Enter
-
-git push origin main
-
-=======================================================
-
 
 
