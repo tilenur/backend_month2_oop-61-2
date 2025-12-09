@@ -33,4 +33,3 @@ git commit -m "same text"
 git push origin (name of the branch)
 
 
-
