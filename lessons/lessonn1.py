@@ -17,6 +17,7 @@ kirito = Hero("Kirito", 100, 1000)
 asuna = Hero("Asuna", 101, 1001)
 
 print(asuna.base_method())
+
 # объект/экземпляр на основе класса
 my_text = "Just text"
 my_text_2 = "Just text 2"
