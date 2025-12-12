@@ -61,3 +61,6 @@ git restore __file__/__place__     - restores state to the last commit
 git restore .                      - restores all files
 git reset .                        - restores to previous state after add . (buffer obmena)
 
+git reset --mixed HEAD~1           - delete last commit
+git restore .                      - restores all files at that moment
+
