@@ -64,3 +64,17 @@ git reset .                        - restores to previous state after add . (buf
 git reset --mixed HEAD~1           - delete last commit
 git restore .                      - restores all files at that moment
 
+////////////////////////////////////////////////////////////////
+cloning github to my local folder
+
+1) cd ..                               - leave the project/folder
+2) ls                                  - check where I am
+3) mkdir ___(folder name)___           - making project/folder
+4) cd ___(folder name)___              - enter file
+5) git clone ___(github link)___       - cloning github link
+
+6) ls                                  - check where I am
+7) cd ___(folder)___                   - enter the folder
+8) switch -c ___(branch name)___       - creating and moving to the new branch
+9) git push origin ___(branch name)___ - pushing the code into the new branch
+
