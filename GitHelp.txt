@@ -78,3 +78,26 @@ cloning github to my local folder
 8) switch -c ___(branch name)___       - creating and moving to the new branch
 9) git push origin ___(branch name)___ - pushing the code into the new branch
 
+======================================================================
+VIRTUAL ENVIRONMENT
+
+deactivate                             - to deactivate pip
+
+.venv\Scripts\activate                 - to activate pip on Windows
+source .venv/bin/activate              - to activate pip on Mac or Linux
+
+pip                                    - to enter pip
+pip install   ___ (package/module)     - to download packages and modules
+pip uninstall ___ (package/module)     - to delete packages and modules
+
+pip freeze                             - Lists all installed Python packages
+pip freeze -> requirements.txt         - Saves the output of pip freeze into a file called requirements.txt.
+pip install -r requirements.txt        - Installs all packages listed in requirements.txt with the specified versions.
+
+
+MANUALLY ACTIVATING .VENV
+
+1) deactivate
+2) python
+   py
+   python3 -m venv __my_venv__ (name of the folder)
